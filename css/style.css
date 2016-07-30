@@ -9,7 +9,8 @@ File Description:Main CSS file of the template */
 /* Typography
 ----------------------------------------------------------------------------- */
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
+
 }
 .site-name {
 	font-family: 'Raleway', sans-serif;
@@ -61,16 +62,16 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: #b7dff6;
+	color: #E54028;
 }
 .text-colored {
-	color: #96b4c5;
+	color: #E54028;
 }
 a {
-	color: #96b4c5;
+	color: #E54028;
 }
 a:hover {
-	color: #b7dff6;
+	color: #ffffff;
 }
 a:focus,
 a:active {
@@ -156,10 +157,13 @@ blockquote {
 
 }
 .subfooter {
-	background-color: #658396;
+	background-color: #2d303b;
 	border-top: 1px solid #f3f3f3;
 	border-bottom: 1px solid #f3f3f3;
 	padding: 40px 0;
+}
+.subfooter-text{
+	color:#ffffff;
 }
 .section {
 	background-color: #ffffff;
@@ -169,11 +173,11 @@ blockquote {
 /* Backgrounds
 ----------------------------------------------------------------------------- */
 .default-bg {
-	background-color: #222222;
+	background-color: #2d303b;
 	color: #ffffff;
 }
 .default-bg.blue {
-	background-color: #96b4c5;
+	background-color: #E54028;
 }
 .translucent-bg {
 	color: #ffffff;
@@ -315,13 +319,13 @@ blockquote {
 	transition: all 0.2s ease-in-out;
 }
 .btn-default {
-	color: #96b4c5;
+	color: #E54028;
 	border: 1px solid #cccccc;
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #b7dff6;
-	border-color: #b7dff6;
+	background-color: #E54028;
+	border-color: #E54028;
 }
 
 /* Collapse
@@ -352,7 +356,7 @@ blockquote {
 	padding: 12px 35px 12px 15px;
 	display: inline-block;
 	width: 100%;
-	background-color: #96b4c5;
+	background-color: #E54028;
 	color: #ffffff;
 	position: relative;
 	text-decoration: none;
@@ -377,7 +381,7 @@ blockquote {
 }
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #96b4c5;
+	background-color: #E54028;
 	color: #ffffff;
 }
 .panel-title a i {
@@ -391,8 +395,8 @@ blockquote {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #96b4c5;
-	border-color: #96b4c5;
+	background-color: #E54028;
+	border-color: #E54028;
 	color: #ffffff;
 }
 .nav-pills > li > a {
@@ -434,7 +438,7 @@ textarea {
 	border-radius: 0px;
 }
 .modal-header {
-	background-color: #96b4c5;
+	background-color: #E54028;
 	color: #ffffff;
 }
 .modal-header h4 {
@@ -483,11 +487,11 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #96b4c5;
+	color: #E54028;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #96b4c5;
+	color: #E54028;
 }
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
@@ -683,7 +687,7 @@ textarea {
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgba(183, 223, 246, 0.7);
+	background-color: rgba(23, 45, 48, 0.7);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
