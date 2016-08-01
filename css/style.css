@@ -65,13 +65,16 @@ h4 span {
 	color: #E54028;
 }
 .text-colored {
-	color: #E54028;
+	color: #E54028; //red
 }
 a {
 	color: #E54028;
 }
 a:hover {
-	color: #ffffff;
+	color: #E54028; //link hover
+}
+a:visited {
+	color: #7F1000; //link visited, dark red
 }
 a:focus,
 a:active {
@@ -173,7 +176,7 @@ blockquote {
 /* Backgrounds
 ----------------------------------------------------------------------------- */
 .default-bg {
-	background-color: #2d303b;
+	background-color: #2d303b; //dark blue
 	color: #ffffff;
 }
 .default-bg.blue {
@@ -233,8 +236,8 @@ blockquote {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
 }
-.translucent-bg.blue:after {
-	background-color: rgba(85, 172, 238, 0.7);
+.translucent-bg.blue:after { //changing to yellow -- link after click
+	background-color: rgba(245, 210, 89, 0.7); //yellow #f5d259
 }
 .translucent-bg .container {
 	z-index: 3;
