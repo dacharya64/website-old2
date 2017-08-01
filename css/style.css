@@ -9,7 +9,7 @@ File Description:Main CSS file of the template */
 /* Typography
 ----------------------------------------------------------------------------- */
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open+Sans', sans-serif;
 
 }
 .site-name {
@@ -20,7 +20,7 @@ body {
 	height: 100%;
 }
 body {
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.50;
 	color: #333333;
 	background-color: #ffffff;
@@ -453,6 +453,24 @@ textarea {
 	text-shadow: none;
 	filter: alpha(opacity=100);
 	opacity: 1;
+}
+
+/*medium+ screen sizes*/
+@media (min-width:992px) {
+    .desktop-only {
+        display:block !important;
+    }
+}
+
+/*small screen sizes*/
+@media (max-width: 991px) {
+    .mobile-only {
+        display:block !important;
+    }
+
+    .desktop-only {
+        display:none !important;
+    }
 }
 
 /* Large devices (Large desktops 1200px and up) */
