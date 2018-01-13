@@ -16,6 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1753,7 +1754,11 @@
 			width: 100%;
 			padding: 2em;
 			margin: 1em;
+		}
 
+		.list h3, .list p {
+			display: inline;
+			margin-top: 3em;
 		}
 
 		.games strong {
@@ -1763,9 +1768,12 @@
 		.tech strong {
 			color: #4286f4;
 		}
+
 		.publishing strong {
 			color: #f4b042;
+			display: inline;
 		}
+
 		.film strong {
 			color: #e52d3a;
 		}
